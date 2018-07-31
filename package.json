@@ -1,0 +1,24 @@
+{
+  "name": "expressintro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tr4vi5/expressIntro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tr4vi5/expressIntro/issues"
+  },
+  "homepage": "https://github.com/Tr4vi5/expressIntro#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

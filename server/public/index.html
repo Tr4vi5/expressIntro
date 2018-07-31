@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salary Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/jquery-3.3.1.js"></script>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <div id="masterContainer">
+        <div id="headContent">
+            <h1>EMPLOYEE SALARY CALCULATION</h1>
+        </div>
+
+        <div id="inputContent">
+            <div id="nestedInputs">
+                <input id="firstNameIn" placeholder="First Name"/>
+                <input id="lastNameIn" placeholder="Last Name"/>
+                <input id="employeeIDIn" placeholder="ID Number"/>
+                <input id="titleIn" placeholder="Title"/>
+                <input id="salaryIn" placeholder="Salary"/>
+                <button id="employeeInBtn">Submit Employee</button>
+            </div>  
+        </div>
+
+        <div id="tableContent">
+            <table id="employeeTable">
+                <thead id="employeeHead">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Annual Salary</th>
+                        <th id="deleteColumn"></th>
+                    </tr>
+                </thead>
+                <tbody id="employeeBody">
+                    <!-- Employee rows append here -->
+                </tbody>
+                <tfoot id="employeeFoot">
+                    <td id="totalCost" colspan="5">Monthly Cost: $0</td>
+                </tfoot>
+            </table>
+        </div>
+
+        <div id="salaryContent">
+
+        </div>
+    </div>
+</body>
+</html>
